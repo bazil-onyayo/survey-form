@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap');
+
+.container {
+  padding: 0% 5%;
+}
+
+body {
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  font-family: 'Source Code Pro', monospace;
+  background-color: #D8DBE2;
+  font-size: 1.25rem;
+    
+}
+
+
+#title {
+  text-align: center;
+  font-size: 2.7rem;
+}
+
+#description {
+  text-align: center;
+}
+
+#survey-form {
+  background-color: #A9BCD0;
+  padding: 5%;
+  padding-top: 2.5%;
+  max-width: 750px;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  border-radius: 5px;
+
+}
+
+.form-group {
+  margin-bottom: 1%;
+}
+
+#dropdown {
+  display: block;
+  width: 100%;
+  font-size: 0.95rem;
+  border-radius: 5px;
+  padding: 1% 1% 1% 1%;
+  background-color: white;
+  border: 3px #D8DBE2 solid;
+}
+
+
+textarea {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.95rem;
+  padding: 0% 1%;
+  border-radius: 5px;
+  border: 3px #D8DBE2 solid;
+
+}
+
+.form-control {
+  width: 97%;
+  font-size: 0.95rem;
+  border-radius: 5px;
+  padding: 1% 1% 1% 1%;
+  margin: 1% 0%;
+  border: 3px #D8DBE2 solid;
+}
+
+button {
+  display: block;
+  color: #D8DBE2;
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 20%;
+  font-size: 1.4rem;
+  padding: 1%;
+  border: 2px #D8DBE2 solid;
+  border-radius: 5px;
+  background-color: #373F51;
+}
+
+@media (max-width: 495px) { 
+  #title {
+    font-size: 2.2rem;
+  } 
+}
+
+input[type=radio] {
+  border: 0px;
+  width: 4.5%;
+  height: 1rem;
+}
+
+input[type=checkbox] {
+  border: 0px;
+  width: 4.5%;
+  height: 1rem;
+}
+
+input:focus { 
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+textarea:focus { 
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+select:focus { 
+  outline: none !important;
+}

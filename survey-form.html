@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1 id="title">The Realm Consortium Survey Form</h1>
+
+                <p id="description">The Team appreciates your contribution in our products and services improvement</p>
+            </header>
+
+            <main>
+                <form action="" id="survey-form">
+                    <div class="form-group">
+                        <label id="name-label" for="name">Name</label><br>
+                        <input type="text" name="" id="name" class="form-control" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label id="email-label" for="email">Email</label><br>
+                        <input type="email" name="" id="email" class="form-control" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label id="number-label" for="number">Age</label><br>
+                        <input type="number" name="" id="number" class="form-control" placeholder="Age" min="10" max="100">
+                    </div>
+
+                    <div id="consumaption" class="form-group">
+                        <p>How often do you consume our products and services?</p>
+                        <select name="product-consumpation" id="dropdown">
+                            <option value="High">High</option>
+                            <option value="Normal">Normal</option>
+                            <option value="Low">Low</option>
+                            <option value="None">None</option>
+
+                        </select>
+
+                    </div>
+
+                    <div id="category" class="form-group">
+                        <p>Which catergory/ies do the products and services you consume fall?</p>
+
+                        <label for="construction">
+                            <input type="checkbox" name="product-category" value="costruction" id="construction">
+                            Construction
+                        </label><br>
+                        
+                        <label for="electronics">
+                            <input type="checkbox" name="product-friendliness" value="Electronics" id="electronics">
+                            Electronics
+                        </label><br>
+
+                        <label for="health">
+                            <input type="checkbox" name="product-category" value="Health" id="health">
+                            Health
+                        </label><br>
+
+                        <label for="information-technology">
+                            <input type="checkbox" name="product-category" value="Information Technology" id="information-technology">
+                            Information Technology
+                        </label>
+
+                    </div>
+                    
+                    <div id="friendliness" class="form-group">
+                        <p>How easy is it to use our product and services?</p>
+
+                        <label for="very-easy">
+                            <input type="radio" name="product-friendliness" value="Very Easy" id="very-easy">
+                            Very Easy
+                        </label><br>
+                        
+                        <label for="easy">
+                            <input type="radio" name="product-friendliness" value="Easy" id="easy">
+                            Easy
+                        </label><br>
+
+                        <label for="slightly-hard">
+                            <input type="radio" name="product-friendliness" value="Slightly Hard" id="slightly-hard">
+                            Slightly Hard
+                        </label><br>
+
+                        <label for="hard">
+                            <input type="radio" name="product-friendliness" value="Hard" id="hard">
+                            Hard
+                        </label>
+
+                    </div>
+
+                    <div id="pricing" class="form-group">
+                        <p>How would you rate the value for money?</p>
+
+                        <label for="five">
+                            <input type="radio" name="value-for-money" value="5" id="five">
+                            5
+                        </label><br>
+
+                        <label for="four">
+                            <input type="radio" name="value-for-money" value="4" id="four">
+                            4
+                        </label><br>
+
+                        <label for="three">
+                            <input type="radio" name="value-for-money" value="3" id="three">
+                            3
+                        </label><br>
+
+                        <label for="two">
+                            <input type="radio" name="value-for-money" value="2" id="two">
+                            2
+                        </label><br>
+                        <label for="five">
+                            <input type="radio" name="value-for-money" value="1" id="one">
+                            1
+                        </label>
+
+                    </div>
+
+                    <div id="recommendation" class="form-group">
+                        <p>How likely are you to recommend our products and services to others?</p>
+
+                        <label for="very-likely">
+                            <input type="radio" name="recommendation-rate" value="Very Likely" id="very-likely">
+                            Very Likely
+                        </label><br>
+                        
+                        <label for="likely">
+                            <input type="radio" name="recommendation-rate" value="Very likely" id="very-likely">
+                            Likely
+                        </label><br>
+
+                        <label for="unlikely">
+                            <input type="radio" name="recommendation-rate" value="Unlikely" id="unlikely">
+                            Unlikely
+                        </label><br>
+
+                        <label for="very-unlikely">
+                            <input type="radio" name="recommendation-rate" value="Very Unlikely" id="very-unlikely">
+                            Very Unlikely
+                        </label><br>
+                    
+                    </div>
+
+                    <div id="suggestions" class="form-group">
+                        <p>How could we improve our products and services to better meet your needs?</p>
+
+                        <textarea name="suggestions" id="" cols="77" rows="8"></textarea>
+
+                    </div>
+                    
+                    <button id="submit" type="submit">Submit</button>
+                </form>
+            </main>
+
+            <footer></footer>
+        </div>
+    </body>
+</html>
